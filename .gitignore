@@ -1,0 +1,14 @@
+*
+!/.gitignore
+!/app/
+!/app/**
+!/data/
+!/data/**
+!/requirements.txt
+!/wsgi.py
+
+# Ignore generated files even inside allowed folders
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
